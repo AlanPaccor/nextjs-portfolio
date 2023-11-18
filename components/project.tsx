@@ -6,13 +6,13 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from 'next/link';
 
-type ProjectProps = {
+interface ProjectProps {
   title: string;
   description: string;
-  tags: string[]; // Change this to string[]
-  imageUrl: string; // Change StaticImageData to string
-  link?: string; // Make link property optional
-};
+  tags: string[] | readonly string[];
+  imageUrl: string;
+  link: string;
+}
 
 export default function Project({
   title,
