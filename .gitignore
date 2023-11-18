@@ -1,0 +1,28 @@
+# Node.js files
+node_modules/
+
+# Next.js build artifacts
+.next/
+
+# Environment variables
+.env*
+!.env.local  # Exclude .env.local from the general .env* pattern
+
+# Visual Studio Code settings
+.vscode/
+
+# IDE settings
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Windows Thumbs.db file
+Thumbs.db
+
+# Cache directories
+.cache/
+.cached/
+
+# Log files
+*.log
