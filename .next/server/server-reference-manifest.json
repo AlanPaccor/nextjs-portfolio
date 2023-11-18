@@ -1,0 +1,13 @@
+{
+  "node": {
+    "df60050be21d4cdef338b199ad7498d608139296": {
+      "workers": {
+        "app/page": "(sc_action)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Falan%2FDocuments%2Fcoding%2Fnextjs-portfolio%2Factions%2FsendEmail.ts%22%2C%5B%22sendEmail%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "sc_action"
+      }
+    }
+  },
+  "edge": {}
+}

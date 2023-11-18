@@ -1,4 +1,4 @@
-"use client";
+// Use client
 
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
@@ -9,7 +9,7 @@ import Link from 'next/link';
 type ProjectProps = {
   title: string;
   description: string;
-  tags: string[];
+  tags: string[]; // Change this to string[]
   imageUrl: string; // Change StaticImageData to string
   link?: string; // Make link property optional
 };
