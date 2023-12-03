@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
+    "allowJs": false,
+    "types": ["next", "next/image",],
     "skipLibCheck": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
