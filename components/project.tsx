@@ -10,7 +10,11 @@ interface ProjectProps {
   title: string;
   description: string;
   tags: string[] | readonly string[];
-  imageUrl: string;
+  image: {
+    src: StaticImageData;
+    width: number;
+    height: number;
+  };
   link: string;
 }
 
@@ -18,7 +22,7 @@ export default function Project({
   title,
   description,
   tags,
-  imageUrl,
+  image,
   link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -58,8 +62,10 @@ export default function Project({
             </div>
 
             <Image
-              src={imageUrl}
+              src={image.src}
               alt="Project I worked on"
+              width={image.width}
+              height={image.height}
               quality={100}
               className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
             transition 

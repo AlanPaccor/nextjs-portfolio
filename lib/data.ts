@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Full-Stack Developer Bootcamp",
     location: "Orlando, FL",
     description:
-      "I join a bootcamp so I could learn at a faster pace since I wanted to know how to do more and more things.",
+      "I joined a bootcamp so I could learn at a faster pace since I wanted to know how to do more and more things.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
@@ -61,28 +61,38 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  { 
+  {
     title: "Alan's Ecommerce",
     description:
-      "I worked on this project for a week to know the fundamentals on building a working ecommerce website.",
+      "I worked on this project for a week to know the fundamentals of building a working ecommerce website.",
     tags: ["React", "Next.js", "Mongo", "Tailwind", "Styled Components"],
-    imageUrl: corpcommentImg, 
+    image: {
+      src: corpcommentImg,
+      width: 100, // Provide the actual width of your image,
+      height: 100, // Provide the actual height of your image,
+    },
     link: "https://easystopshopforyou.vercel.app/",
   },
   {
     title: "Example",
-    description:
-      "Example Fill In...",
+    description: "Example Fill In...",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    image: {
+      src: rmtdevImg,
+      width: 100, // Provide the actual width of your image,
+      height: 100, // Provide the actual height of your image,
+    },
     link: "https://example.com",
   },
   {
     title: "Example",
-    description:
-      "Example Fill In...",
+    description: "Example Fill In...",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    image: {
+      src: wordanalyticsImg,
+      width: 100, // Provide the actual width of your image,
+      height: 100, // Provide the actual height of your image,
+    },
     link: "https://example.com",
   },
 ] as const;
