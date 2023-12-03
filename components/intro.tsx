@@ -31,11 +31,11 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://i.ibb.co/RTCsC3D/IMG-8962.jpg"
+              src="https://i.ibb.co/2cm2DrD/IMG-8962.jpg"
               alt="o portrait"
               width="192"
               height="192"
-              quality="95"
+              quality="100"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />

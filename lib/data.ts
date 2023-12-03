@@ -62,38 +62,38 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Studious LMS",
+    description: "A Learning Managment System that allows you to either sell of purchase courses depending on permissions",
+    tags: ["React", "Server Actions", "Prisma", "Stripe", "Tailwind", "MySQL"],
+    image: {
+      src: rmtdevImg,
+      width: 2940, // Provide the actual width of your image,
+      height: 1494, // Provide the actual height of your image,
+    },
+    link: "https://studious-lms-proj.vercel.app/",
+  },
+  {
+    title: "Better Trello",
+    description: "A project managment tool that works for any type of project, workflow, or team",
+    tags: ["Next 13", "React", "Stripe", "Mux", "Prisma", "Tailwind", "MySQL"],
+    image: {
+      src: wordanalyticsImg,
+      width: 2940, // Provide the actual width of your image,
+      height: 1502, // Provide the actual height of your image,
+    },
+    link: "https://new-better-trello.vercel.app/",
+  },
+  {
     title: "Alan's Ecommerce",
     description:
-      "I worked on this project for a week to know the fundamentals of building a working ecommerce website.",
+      "An ecommerce website that has all the basic functions and necessities and could be made into much more",
     tags: ["React", "Next.js", "Mongo", "Tailwind", "Styled Components"],
     image: {
       src: corpcommentImg,
-      width: 100, // Provide the actual width of your image,
-      height: 100, // Provide the actual height of your image,
+      width: 2940, // Provide the actual width of your image,
+      height: 1912, // Provide the actual height of your image,
     },
     link: "https://easystopshopforyou.vercel.app/",
-  },
-  {
-    title: "Example",
-    description: "Example Fill In...",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    image: {
-      src: rmtdevImg,
-      width: 100, // Provide the actual width of your image,
-      height: 100, // Provide the actual height of your image,
-    },
-    link: "https://example.com",
-  },
-  {
-    title: "Example",
-    description: "Example Fill In...",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    image: {
-      src: wordanalyticsImg,
-      width: 100, // Provide the actual width of your image,
-      height: 100, // Provide the actual height of your image,
-    },
-    link: "https://example.com",
   },
 ] as const;
 
@@ -114,7 +114,5 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Python",,
 ] as const;

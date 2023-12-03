@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/about.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/about.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/contact.tsx": {
       "*": {
         "id": "(sc_client)/./components/contact.tsx",
@@ -56,17 +48,17 @@
         "async": false
       }
     },
-    "(app-client)/./components/experience.tsx": {
+    "(app-client)/./components/about.tsx": {
       "*": {
-        "id": "(sc_client)/./components/experience.tsx",
+        "id": "(sc_client)/./components/about.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./components/intro.tsx": {
+    "(app-client)/./components/experience.tsx": {
       "*": {
-        "id": "(sc_client)/./components/intro.tsx",
+        "id": "(sc_client)/./components/experience.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -83,6 +75,14 @@
     "(app-client)/./components/section-divider.tsx": {
       "*": {
         "id": "(sc_client)/./components/section-divider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/intro.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/intro.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -219,14 +219,6 @@
       ],
       "async": false
     },
-    "/Users/alan/Documents/coding/nextjs-portfolio/components/about.tsx": {
-      "id": "(app-client)/./components/about.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/alan/Documents/coding/nextjs-portfolio/components/contact.tsx": {
       "id": "(app-client)/./components/contact.tsx",
       "name": "*",
@@ -235,16 +227,16 @@
       ],
       "async": false
     },
-    "/Users/alan/Documents/coding/nextjs-portfolio/components/experience.tsx": {
-      "id": "(app-client)/./components/experience.tsx",
+    "/Users/alan/Documents/coding/nextjs-portfolio/components/about.tsx": {
+      "id": "(app-client)/./components/about.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/alan/Documents/coding/nextjs-portfolio/components/intro.tsx": {
-      "id": "(app-client)/./components/intro.tsx",
+    "/Users/alan/Documents/coding/nextjs-portfolio/components/experience.tsx": {
+      "id": "(app-client)/./components/experience.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -261,6 +253,14 @@
     },
     "/Users/alan/Documents/coding/nextjs-portfolio/components/section-divider.tsx": {
       "id": "(app-client)/./components/section-divider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/alan/Documents/coding/nextjs-portfolio/components/intro.tsx": {
+      "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
