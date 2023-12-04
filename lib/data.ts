@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import ComingSoonQuiz from "public/ComingSoonQuiz.png";
 
 export const links = [
   {
@@ -73,6 +74,18 @@ export const projectsData = [
     link: "https://studious-lms-proj.vercel.app/",
   },
   {
+    title: "Alan's Ecommerce",
+    description:
+      "An ecommerce website that has all the basic functions and necessities and could be made into much more",
+    tags: ["React", "Next.js", "Mongo", "Tailwind", "Styled Components"],
+    image: {
+      src: corpcommentImg,
+      width: 2940, // Provide the actual width of your image,
+      height: 1912, // Provide the actual height of your image,
+    },
+    link: "https://easystopshopforyou.vercel.app/",
+  },
+  {
     title: "Better Trello",
     description: "A project managment tool that works for any type of project, workflow, or team",
     tags: ["Next 13", "React", "Stripe", "Mux", "Prisma", "Tailwind", "MySQL"],
@@ -84,16 +97,15 @@ export const projectsData = [
     link: "https://new-better-trello.vercel.app/",
   },
   {
-    title: "Alan's Ecommerce",
-    description:
-      "An ecommerce website that has all the basic functions and necessities and could be made into much more",
-    tags: ["React", "Next.js", "Mongo", "Tailwind", "Styled Components"],
+    title: "Indecisive Quiz Learning EXP",
+    description: "",
+    tags: ["Coming Soon"],
     image: {
-      src: corpcommentImg,
+      src: ComingSoonQuiz, 
       width: 2940, // Provide the actual width of your image,
-      height: 1912, // Provide the actual height of your image,
+      height: 1502, // Provide the actual height of your image,
     },
-    link: "https://easystopshopforyou.vercel.app/",
+    link: "/",
   },
 ] as const;
 
@@ -114,5 +126,9 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",,
+  "Python",
+  "MySQL",
+  "Electro",
+  "Firebase",
+  "Shadcn",
 ] as const;
