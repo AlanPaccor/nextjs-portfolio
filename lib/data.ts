@@ -96,17 +96,7 @@ export const projectsData = [
     },
     link: "https://new-better-trello.vercel.app/",
   },
-  {
-    title: "Indecisive Quiz Learning EXP",
-    description: "",
-    tags: ["Coming Soon"],
-    image: {
-      src: ComingSoonQuiz, 
-      width: 2940, // Provide the actual width of your image,
-      height: 1502, // Provide the actual height of your image,
-    },
-    link: "/",
-  },
+  
 ] as const;
 
 export const skillsData = [
