@@ -40,9 +40,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
+    "(app-client)/./components/theme-switch.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
+        "id": "(sc_client)/./components/theme-switch.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -56,9 +56,9 @@
         "async": false
       }
     },
-    "(app-client)/./components/theme-switch.tsx": {
+    "(app-client)/./context/theme-context.tsx": {
       "*": {
-        "id": "(sc_client)/./components/theme-switch.tsx",
+        "id": "(sc_client)/./context/theme-context.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -72,17 +72,9 @@
         "async": false
       }
     },
-    "(app-client)/./context/theme-context.tsx": {
+    "(app-client)/./node_modules/react-hot-toast/dist/index.mjs": {
       "*": {
-        "id": "(sc_client)/./context/theme-context.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/contact.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/contact.tsx",
+        "id": "(sc_client)/./node_modules/react-hot-toast/dist/index.mjs",
         "name": "*",
         "chunks": [],
         "async": false
@@ -96,25 +88,9 @@
         "async": false
       }
     },
-    "(app-client)/./components/section-divider.tsx": {
+    "(app-client)/./components/about.tsx": {
       "*": {
-        "id": "(sc_client)/./components/section-divider.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/skills.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/skills.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/projects.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/projects.tsx",
+        "id": "(sc_client)/./components/about.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -128,9 +104,33 @@
         "async": false
       }
     },
-    "(app-client)/./components/about.tsx": {
+    "(app-client)/./components/projects.tsx": {
       "*": {
-        "id": "(sc_client)/./components/about.tsx",
+        "id": "(sc_client)/./components/projects.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/contact.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/contact.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/skills.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/skills.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/section-divider.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/section-divider.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -219,16 +219,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\node_modules\\react-hot-toast\\dist\\index.mjs": {
-      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\theme-switch.tsx": {
+      "id": "(app-client)/./components/theme-switch.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -243,8 +235,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\theme-switch.tsx": {
-      "id": "(app-client)/./components/theme-switch.tsx",
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\context\\theme-context.tsx": {
+      "id": "(app-client)/./context/theme-context.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -259,14 +251,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\context\\theme-context.tsx": {
-      "id": "(app-client)/./context/theme-context.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\app\\globals.css": {
       "id": "(app-client)/./app/globals.css",
       "name": "*",
@@ -275,11 +259,19 @@
       ],
       "async": false
     },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\contact.tsx": {
-      "id": "(app-client)/./components/contact.tsx",
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\node_modules\\react-hot-toast\\dist\\index.mjs": {
+      "id": "(app-client)/./node_modules/react-hot-toast/dist/index.mjs",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -291,24 +283,8 @@
       ],
       "async": false
     },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\section-divider.tsx": {
-      "id": "(app-client)/./components/section-divider.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\skills.tsx": {
-      "id": "(app-client)/./components/skills.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\projects.tsx": {
-      "id": "(app-client)/./components/projects.tsx",
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\about.tsx": {
+      "id": "(app-client)/./components/about.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -323,8 +299,32 @@
       ],
       "async": false
     },
-    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\about.tsx": {
-      "id": "(app-client)/./components/about.tsx",
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\projects.tsx": {
+      "id": "(app-client)/./components/projects.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\contact.tsx": {
+      "id": "(app-client)/./components/contact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\skills.tsx": {
+      "id": "(app-client)/./components/skills.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\alanp\\OneDrive\\Documents\\coding\\nextjs-portfolio\\components\\section-divider.tsx": {
+      "id": "(app-client)/./components/section-divider.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

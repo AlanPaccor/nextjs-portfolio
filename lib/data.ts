@@ -87,14 +87,14 @@ export const projectsData = [
   },
   {
     title: "Better Trello",
-    description: "A project managment tool that works for any type of project, workflow, or team",
-    tags: ["Next 13", "React", "Stripe", "Mux", "Prisma", "Tailwind", "MySQL"],
+    description: "An exciting and challenging gaming experience with two distinct game modes: Normal and Hard. Test your numerical skills, memory, and strategy",
+    tags: ["React", "Firebase", "Javascript", "Bootstrap", "SupaBase", "Node.js"],
     image: {
       src: wordanalyticsImg,
       width: 2940, // Provide the actual width of your image,
       height: 1502, // Provide the actual height of your image,
     },
-    link: "https://new-better-trello.vercel.app/",
+    link: "https://numeric-gamestation.vercel.app/",
   },
   
 ] as const;
@@ -121,4 +121,5 @@ export const skillsData = [
   "Electro",
   "Firebase",
   "Shadcn",
+  "Bootstrap",
 ] as const;
