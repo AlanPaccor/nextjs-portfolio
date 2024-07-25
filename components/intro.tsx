@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://i.ibb.co/2cm2DrD/IMG-8962.jpg"
+              src="https://i.ibb.co/CmZdJQK/SexyMe.webp"
               alt="o portrait"
               width="192"
               height="192"
@@ -63,10 +63,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Alan.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1 year</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">full-stack developer </span>
+        My focus is{" "}
         <span className="underline">React (Next.js)</span>.
+         I love
+        building <span className="italic">sites & apps</span>.
       </motion.h1>
 
       <motion.div

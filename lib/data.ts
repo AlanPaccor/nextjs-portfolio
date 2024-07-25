@@ -41,7 +41,7 @@ export const experiencesData = [
     description:
       "I started teaching myself the basics when I was in senior year in High School.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "2021",
   },
   {
     title: "Full-Stack Developer Bootcamp",
@@ -52,12 +52,20 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Southern Crescent Student",
     location: "McDonough, GA",
     description:
-      "I'm now working on my own projects while looking for opportunities to advance in my career.",
+      "I am pursuing my degree in computer science and completing a computer programming program in the meantime.",
     icon: React.createElement(FaReact),
-    date: "present",
+    date: "2024",
+  },
+  {
+    title: "Optima-Web Creations",
+    location: "McDonough, GA",
+    description:
+      "I worked as a Full-Stack Developer to create websites for clients and forming relations.",
+    icon: React.createElement(FaReact),
+    date: "2024",
   },
 ] as const;
 
@@ -86,9 +94,9 @@ export const projectsData = [
     link: "https://easystopshopforyou.vercel.app/",
   },
   {
-    title: "Better Trello",
-    description: "A project managment tool that works for any type of project, workflow, or team",
-    tags: ["Next 13", "React", "Stripe", "Mux", "Prisma", "Tailwind", "MySQL"],
+    title: "Optima-Web Creations",
+    description: "A business that creats and helps clients with they're websites, and every site is built from scratch",
+    tags: ["React", "Stripe", "SupaBase", "Tailwind", "MySQL", "FireBase", "Resend", "Cloudflare"],
     image: {
       src: wordanalyticsImg,
       width: 2940, // Provide the actual width of your image,
